@@ -9,7 +9,9 @@ export const metadata = {
 
 const RootLayout = ({ children }: { children: ReactNode }) => (
   <html lang='en'>
-    <body>{children}</body>
+    <body className='h-screen flex items-center justify-center'>
+      {children}
+    </body>
   </html>
 );
 

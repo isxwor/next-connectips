@@ -96,7 +96,6 @@ const PayWithConnectIPS = ({
         alt='Pay with ConnectIPS'
         width={90}
         height={90}
-        className=''
       />
     </button>
   );
